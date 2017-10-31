@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://tews6/wsdl">
+   <soapenv:Header>
+      <wsdl:GRIDRegistrationTaskContext>
+        
+         <wsdl:admin_id>uid=thirdpartyapiadmin@nvidia.com,ou=people,ou=nvidia,ou=Users,o=nvidia.com,c=US</wsdl:admin_id>
+        
+         <wsdl:admin_password>Bdance123$</wsdl:admin_password>
+                 
+      </wsdl:GRIDRegistrationTaskContext>
+   </soapenv:Header>
+   <soapenv:Body>
+      <wsdl:GRIDRegistration>
+        
+         <wsdl:GRIDRegistrationObjectProfileTab>
+           
+            <wsdl:_BAR_eMailAddress_BAR_>rajithagrideval@nvidia.com</wsdl:_BAR_eMailAddress_BAR_>
+            <wsdl:_BAR_firstName_BAR_>Rajitha</wsdl:_BAR_firstName_BAR_>
+            <wsdl:_BAR_lastName_BAR_>grideval</wsdl:_BAR_lastName_BAR_>
+            <wsdl:_BAR_company_BAR_>innominds</wsdl:_BAR_company_BAR_>
+            <wsdl:_BAR_industry_BAR_>Other</wsdl:_BAR_industry_BAR_>
+            <wsdl:_BAR_jobRole_BAR_>Other</wsdl:_BAR_jobRole_BAR_>
+            <wsdl:_BAR_street1_BAR_>123avenue</wsdl:_BAR_street1_BAR_>
+           
+            <wsdl:_BAR_street2_BAR_>456avenue</wsdl:_BAR_street2_BAR_>
+            <wsdl:_BAR_state_BAR_>AL</wsdl:_BAR_state_BAR_>
+            <wsdl:_BAR_postalCode_BAR_>12345</wsdl:_BAR_postalCode_BAR_>
+            <wsdl:_BAR_country_BAR_>US</wsdl:_BAR_country_BAR_>
+           
+            <wsdl:_BAR_gridEval_BAR_>abcdefghijkl</wsdl:_BAR_gridEval_BAR_>
+            <wsdl:_BAR_language_BAR_>en</wsdl:_BAR_language_BAR_>
+            <wsdl:_BAR_phone_BAR_>1234567890</wsdl:_BAR_phone_BAR_>
+            <wsdl:_BAR_city_BAR_>sfo</wsdl:_BAR_city_BAR_>           
+            
+         </wsdl:GRIDRegistrationObjectProfileTab>
+      </wsdl:GRIDRegistration>
+   </soapenv:Body>
+</soapenv:Envelope>

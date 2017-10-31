@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://tews6/wsdl">
+   
+   <soapenv:Body>
+      <wsdl:NVCRMAssignRole>
+        
+         <wsdl:NVCRMAssignRoleObjectProfileTab>
+           
+            <wsdl:_BAR_eMailAddress_BAR_>rjally@innominds.com</wsdl:_BAR_eMailAddress_BAR_>
+            <wsdl:_BAR_sfdcRole_BAR_>NVCRMAccessRole</wsdl:_BAR_sfdcRole_BAR_>
+           
+            <wsdl:_BAR_language_BAR_>en</wsdl:_BAR_language_BAR_>
+           
+            <wsdl:_BAR_sfdcMailTemplate_BAR_>mail</wsdl:_BAR_sfdcMailTemplate_BAR_>
+
+         </wsdl:NVCRMAssignRoleObjectProfileTab>
+      </wsdl:NVCRMAssignRole>
+   </soapenv:Body>
+</soapenv:Envelope>

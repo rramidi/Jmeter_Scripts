@@ -1,0 +1,47 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://tews6/wsdl">
+   <soapenv:Header>
+      <wsdl:DGXRegistrationTaskContext>
+    
+         <wsdl:admin_id>uid=thirdpartyapiadmin@nvidia.com,ou=people,ou=nvidia,ou=Users,o=nvidia.com,c=US</wsdl:admin_id>
+         
+         <wsdl:admin_password>Bdance123$</wsdl:admin_password>
+
+      </wsdl:DGXRegistrationTaskContext>
+   </soapenv:Header>
+   <soapenv:Body>
+      <wsdl:DGXRegistration>
+         
+         <wsdl:DGXRegistrationObjectProfileTab>
+            
+            <wsdl:_BAR_eMailAddress_BAR_>rjally1004@innominds.com</wsdl:_BAR_eMailAddress_BAR_>
+            <wsdl:_BAR_firstName_BAR_>Mani</wsdl:_BAR_firstName_BAR_>
+            <wsdl:_BAR_lastName_BAR_>kumar</wsdl:_BAR_lastName_BAR_>
+            <wsdl:_BAR_company_BAR_>innominds</wsdl:_BAR_company_BAR_>
+            <wsdl:_BAR_industry_BAR_>NA</wsdl:_BAR_industry_BAR_>
+            <wsdl:_BAR_jobRole_BAR_>NA</wsdl:_BAR_jobRole_BAR_>
+            <wsdl:_BAR_street1_BAR_>NA</wsdl:_BAR_street1_BAR_>
+            
+            <wsdl:_BAR_street2_BAR_>NA</wsdl:_BAR_street2_BAR_>
+            <wsdl:_BAR_state_BAR_>NA</wsdl:_BAR_state_BAR_>
+            <wsdl:_BAR_postalCode_BAR_>NA</wsdl:_BAR_postalCode_BAR_>
+            <wsdl:_BAR_country_BAR_>NA</wsdl:_BAR_country_BAR_>
+            
+            <wsdl:_BAR_gridEval_BAR_>NA</wsdl:_BAR_gridEval_BAR_>
+            <wsdl:_BAR_language_BAR_>en</wsdl:_BAR_language_BAR_>
+            <wsdl:_BAR_phone_BAR_>9876543210</wsdl:_BAR_phone_BAR_>
+            <wsdl:_BAR_city_BAR_>NA</wsdl:_BAR_city_BAR_>
+			
+            
+            <wsdl:_BAR_SecondaryEmail_BAR_>rjally1003@innominds.com</wsdl:_BAR_SecondaryEmail_BAR_>
+            
+            <wsdl:_BAR_SecondaryFirstName_BAR_>Rajitha</wsdl:_BAR_SecondaryFirstName_BAR_>
+            
+            <wsdl:_BAR_SecondaryLastName_BAR_>jally</wsdl:_BAR_SecondaryLastName_BAR_>
+			
+			<wsdl:_BAR_secondary_contact_phone_BAR_>1234567890</wsdl:_BAR_secondary_contact_phone_BAR_>
+            
+    
+         </wsdl:DGXRegistrationObjectProfileTab>
+      </wsdl:DGXRegistration>
+   </soapenv:Body>
+</soapenv:Envelope>
